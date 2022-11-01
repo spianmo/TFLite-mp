@@ -28,15 +28,16 @@
   },
   "homepage": "https://github.com/deepkolos/wxmp-tensorflow#readme",
   "dependencies": {
+    "@mediapipe/pose": "^0.5.1635988162",
     "@tensorflow-models/blazeface": "^0.0.7",
     "@tensorflow-models/face-landmarks-detection": "^0.0.3",
     "@tensorflow/tfjs-backend-wasm": "^3.13.0",
     "@tensorflow/tfjs-backend-webgl": "^3.13.0",
     "@tensorflow/tfjs-converter": "^3.13.0",
     "@tensorflow/tfjs-core": "^3.13.0",
-    "seedrandom": "~2.4.3",
     "abab": "^2.0.5",
     "fetch-wechat": "^0.0.3",
+    "seedrandom": "~2.4.3",
     "text-encoder": "^0.0.4",
     "three-platformize": "^1.133.1"
   },

@@ -43,6 +43,14 @@ function codeTransform() {
           'https://tfhub.dev/google/tfjs-model/movenet/singlepose/lightning/3',
           'https://cdn.static.oppenlab.com/weblf/test/movenet-singlepose-lightning/model.json',
         );
+        // .replace(
+        //   'https://storage.googleapis.com/tfjs-models/savedmodel/blazepose/detector',
+        //   'http://oss.cache.ren/img/blazepose/detector'
+        // )
+        // .replace(
+        //   'https://storage.googleapis.com/tfjs-models/savedmodel/blazepose/landmark',
+        //   'http://oss.cache.ren/img/blazepose/landmark'
+        // );
       // 修复tfjs的webgl版本检测
       // code = code.replace(`isWebGLVersionEnabled(2)`, `false`);
       // code = code.replace(`isWebGLVersionEnabled(1)`, `true`);

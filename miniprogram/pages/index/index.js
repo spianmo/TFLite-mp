@@ -2,6 +2,10 @@ Page({
   data: {
     pages: [
       {
+        title: 'HandPose',
+        href: '/pages/handpose/handpose',
+      },
+      {
         title: 'Blazeface',
         href: '/pages/blazeface/blazeface',
       },
@@ -12,10 +16,6 @@ Page({
       {
         title: 'PoseNet',
         href: '/pages/posenet/posenet',
-      },
-      {
-        title: 'HandPose',
-        href: '/pages/handpose/handpose',
       },
       {
         title: 'MoveNet Lightning',

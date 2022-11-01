@@ -31,6 +31,7 @@ Page({
       const t = Date.now()
       // @ts-ignore
       const prediction = model.estimatePoses(video, { maxPoses:1, flipHorizontal: false })
+      console.log("===========>", prediction)
       console.log('predict cost', Date.now() - t)
 
       painter.setCtx(ctx);

@@ -25,11 +25,13 @@ import {PoseDetector} from './pose_detector';
 import {load as loadPoseNetDetector} from './posenet/detector';
 import {PosenetModelConfig} from './posenet/types';
 import {SupportedModels} from './types';
+import {BlazePoseMediaPipeModelConfig, BlazePoseModelConfig} from "./blazepose_mediapipe/types";
 
 /**
  * Create a pose detector instance.
  *
  * @param model The name of the pipeline to load.
+ * @param modelConfig
  */
 export async function createDetector(
     model: SupportedModels,
